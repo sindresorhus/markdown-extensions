@@ -1,9 +1,7 @@
-'use strict';
-var test = require('ava');
-var markdownExtensions = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(Array.isArray(markdownExtensions));
-	t.assert(markdownExtensions.length > 0);
-	t.end();
+test(t => {
+	t.true(Array.isArray(m));
+	t.true(m.length > 0);
 });
