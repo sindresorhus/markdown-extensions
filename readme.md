@@ -2,20 +2,20 @@
 
 > List of Markdown file extensions
 
-The list is just a [JSON file](markdown-extensions.json) and can be used wherever.
+The list is just a [JSON file](markdown-extensions.json) and can be used anywhere.
 
 
 ## Install
 
 ```
-$ npm install --save markdown-extensions
+$ npm install markdown-extensions
 ```
 
 
 ## Usage
 
 ```js
-var markdownExtensions = require('markdown-extensions');
+const markdownExtensions = require('markdown-extensions');
 
 console.log(markdownExtensions);
 //=> ['md', ...]
@@ -24,4 +24,4 @@ console.log(markdownExtensions);
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
