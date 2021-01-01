@@ -1,4 +1,4 @@
-# markdown-extensions [![Build Status](https://travis-ci.org/sindresorhus/markdown-extensions.svg?branch=master)](https://travis-ci.org/sindresorhus/markdown-extensions)
+# markdown-extensions
 
 > List of Markdown file extensions
 
