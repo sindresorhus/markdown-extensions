@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from '.';
+import markdownExtensions from './index.js';
 
 test('main', t => {
-	t.true(Array.isArray(m));
-	t.true(m.length > 0);
+	t.true(Array.isArray(markdownExtensions));
+	t.true(markdownExtensions.length > 0);
 });

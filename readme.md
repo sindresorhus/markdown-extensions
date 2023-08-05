@@ -4,24 +4,17 @@
 
 The list is just a [JSON file](markdown-extensions.json) and can be used anywhere.
 
-
 ## Install
 
+```sh
+npm install markdown-extensions
 ```
-$ npm install markdown-extensions
-```
-
 
 ## Usage
 
 ```js
-const markdownExtensions = require('markdown-extensions');
+import markdownExtensions from 'markdown-extensions';
 
 console.log(markdownExtensions);
-//=> ['md', ...]
+//=> ['md', …]
 ```
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

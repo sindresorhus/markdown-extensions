@@ -4,26 +4,31 @@
 	"description": "List of Markdown file extensions",
 	"license": "MIT",
 	"repository": "sindresorhus/markdown-extensions",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
 	},
 	"engines": {
-		"node": ">=6"
+		"node": ">=16"
 	},
 	"scripts": {
 		"test": "xo && ava && tsd"
 	},
 	"files": [
-		"index.d.ts",
 		"index.js",
+		"index.d.ts",
 		"markdown-extensions.json"
 	],
 	"keywords": [
 		"markdown",
 		"md",
-		"ext",
 		"extensions",
 		"extension",
 		"file",
@@ -32,8 +37,8 @@
 		"array"
 	],
 	"devDependencies": {
-		"ava": "*",
-		"tsd": "*",
-		"xo": "*"
+		"ava": "^5.3.1",
+		"tsd": "^0.28.1",
+		"xo": "^0.55.0"
 	}
 }

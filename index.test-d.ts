@@ -1,4 +1,4 @@
-import { expectAssignable } from "tsd";
-import extension = require("./index.js");
+import {expectAssignable} from 'tsd';
+import extension from './index.js';
 
 expectAssignable<string[]>(extension);
