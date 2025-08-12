@@ -18,6 +18,7 @@ declare const markdownExtensions: [
 	'mdwn',
 	'mkdown',
 	'ron',
+	'mdx',
 ];
 
 export default markdownExtensions;
