@@ -9,6 +9,7 @@ const markdownExtension = [
 	'mdwn',
 	'mkdown',
 	'ron',
+	'mdx'
 ];
 
 export default markdownExtension;
